@@ -88,6 +88,7 @@
         const w = 100, h = 25;
 
         if (tooltip) {
+            // Animate & remove the old tooltip
             const old = tooltip;
             TweenLite.to(old, 0.3, {
                 opacity: 0,
