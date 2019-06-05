@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Roboto&display=swap');
 
 :root{
     --tooltip-color: rgba(80, 100, 175, 0.9);;
