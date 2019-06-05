@@ -8,6 +8,7 @@ body
 {
     font-family: Arvo, serif;
     background-color: #efeff1;
+    margin: 0;
 }
 
 main
@@ -17,12 +18,11 @@ main
     align-items: center;
     justify-content: stretch;
 
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 #body
 {
-    /* background-image: url(https://cdn.discordapp.com/attachments/581220789689253916/585052121859096586/corps.png); */
     background-image: url(../images/body.png);
     align-self: stretch;
     justify-self: stretch;
