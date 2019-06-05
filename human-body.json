@@ -1,0 +1,26 @@
+{
+    "epaule": {
+        "x": 23,
+        "y": 105,
+        "r": 30,
+        "desc": "La région morphologique se situant à la jonction du tronc avec le membre supérieur.\nElle comporte plusieurs articulations qui concourent à en faire le complexe articulaire le plus mobile du corps humain. Elle permet d'orienter le membre supérieur dans l'espace, autorisant en particulier son extrémité effectrice, la main, à assurer ses rôles de préhension et de communication avec l'environnement situé à sa portée."
+    },
+    "coude": {
+        "x": 122,
+        "y": 180,
+        "r": 20,
+        "desc": "La partie du membre supérieur située entre le bras et l'avant-bras. Cette articulation comprend en avant la région du « pli du coude » (ou dedans de coude). C'est un complexe articulaire synovial du membre supérieur humain reliant le bras à l'avant-bras. Il unit ainsi trois os entre eux : le radius, l'ulna (cubitus) et l'humérus.\nElle est la réunion de trois articulations : huméro-ulnaire, huméro-radiale et radio-ulnaire proximale (supérieure). Lorsque l'avant-bras est tendu (extension complète), le bras et l'avant-bras ne sont pas alignés dans le plan frontal. Les deux parties forment un angle ouvert en dehors, d'environ 170° chez l'homme, 160° chez la femme ; c'est ce qui est appelé le valgus physiologique (on retrouve la même chose pour le genou). "
+    },
+    "genoue": {
+        "x": 46,
+        "y": 360,
+        "r": 20,
+        "desc":"Articulation qui permet de joindre la jambe à la cuisse. Elle met en jeu trois os, le fémur, le tibia et la patella, par le biais de trois articulations, l'articulation fémoro-patellaire et la double articulation fémoro-tibiale. Le cartilage assure la fluidité des mouvements du genou. Le tissu élastique fin, le cartilage, protège l'os et fait en sorte que les surfaces de l'articulation glissent facilement les unes contre les autres. Le genou renferme deux types de cartilages articulaires: le cartilage fibreux (ménisque) et le cartilage hyalin. Le cartilage s'use non seulement au fil des ans, mais aussi en fonction de son utilisation. Le cartilage possède en outre une capacité de régénération limitée. La faible capacité de régénération du cartilage s'explique par l'absence de vaisseaux sanguins qui permettent un métabolisme important. Le tissu cicatriciel se compose essentiellement de cartilage fibreux, de moins bonne qualité que le cartilage hyalin d'origine. Par conséquent, de nouvelles déchirures et fissures apparaissent dans le cartilage après un certain temps.\n    Le genou présente un angle naturel de 170 à 175° en externe environ, appelé valgus physiologique, dû au décalage entre l'axe de la jambe (tibia-fibula) quasi vertical, et celui du fémur légèrement oblique à cause de la longueur du col portant sa tête. Un valgus trop important sera qualifié de Genu Varum pour un angle trop important (genou arqués) ou de Genu Valgum pour un angle trop faible (genou \"qui se touchent\")"
+    },
+    "main": {
+        "x": 12,
+        "y": 260,
+        "r": 20,
+        "desc": "L’organe préhensile effecteur situé à l’extrémité de l’avant-bras et relié à ce dernier par le poignet. C'est un organe capable notamment de saisir et manipuler des objets. Chez l'homme, la main est un organe extrêmement développé et important, elle dispose d'une palette d'actions très large. Située à l'extrémité des deux membres supérieurs, chaque main possède cinq doigts qui apportent une contribution majeure au sens du toucher.\nElle est également un moyen d’expression quand elle complète la parole, ou sert d'articulateur en langue des signes."
+    }
+}
