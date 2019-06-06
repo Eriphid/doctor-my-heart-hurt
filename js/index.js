@@ -84,9 +84,7 @@
         return tooltip;
     }
 
-    function set_tooltip(value, x, y) {
-        const w = 100, h = 25;
-
+    function remove_tooltip() {
         if (tooltip) {
             // Animate & remove the old tooltip
             const old = tooltip;
@@ -96,8 +94,12 @@
                 ease: Power1.easeIn,
                 onComplete: () => old.remove()
             });
-
         }
+    }
+
+    function set_tooltip(value, x, y) {
+        const w = 100, h = 25;
+
         tooltip = create_tooltip(w, h);
 
         // Center the tooltip arround the given x position
@@ -122,7 +124,6 @@
                 y: y
             }
         )
-
         // Assign its value with the given value
         let text = tooltip.querySelector("text");
         text.innerHTML = value;
@@ -167,6 +168,10 @@
         }
     }
 
+    function remove_active_state() {
+        remove_active_class();
+        remove_tooltip();
+    }
 
     async function initialization() {
         // Enable animation by the flipping library for svg#body
@@ -179,17 +184,26 @@
                 bodypart.r = 20;
             }
             const circle = create_circle(bodypart.x, bodypart.y, bodypart.r);
-            circle.addEventListener("click", () => {
+            circle.addEventListener("click", (ev) => {
+                ev.stopPropagation();
+
                 if (circle.classList.contains("active"))
                     return;
 
-                remove_active_class();
+                remove_active_state();
                 circle.classList.add("active");
                 set_description(bodypart.desc);
                 set_tooltip(name, bodypart.x, bodypart.y - bodypart.r + 5);
             })
         }
     }
+
+    document.addEventListener("click", (ev) => {
+        if(ev.target.id === "body")
+            return;
+        remove_active_state();
+        set_description(null);
+    })
 
     initialization();
 })();

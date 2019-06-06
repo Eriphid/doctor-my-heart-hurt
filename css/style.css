@@ -24,7 +24,6 @@ main
 #body
 {
     background-image: url(../images/body.png);
-    align-self: stretch;
     justify-self: stretch;
 
     flex-basis: 140px;
